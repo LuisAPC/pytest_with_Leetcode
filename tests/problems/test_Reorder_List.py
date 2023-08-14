@@ -1,10 +1,10 @@
-import sys
+# import sys
 
-sys.path.append(r"C:\Users\luisp\Desktop\Leetcode\problems")
-from Reorder_List import create_linked_list, Solution
+# sys.path.append(r"C:\Users\luisp\Desktop\Leetcode\problems")
+# from Reorder_List import create_linked_list, Solution
 
-# from ...problems.Reorder_List import create_linked_list, Solution
-from hypothesis.strategies import lists, integers, tuples
+from ...problems.Reorder_List import create_linked_list, Solution
+from hypothesis.strategies import lists, integers
 from hypothesis import given
 from typing import Optional
 import pytest
@@ -42,6 +42,6 @@ def test_merge_lists_strategies(list1: Optional[list], list2: Optional[list]) ->
     res1 = merge_lists(list1, list2)
     res2 = merge_lists(list2, list1)
 
-    same_len = len(res1) == (len(list1)+len(list2))
+    same_len = len(res1) == (len(list1) + len(list2))
 
     assert res1 == res2 and same_len
