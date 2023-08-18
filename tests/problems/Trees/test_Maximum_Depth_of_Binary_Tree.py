@@ -1,4 +1,4 @@
-from ...problems.Maximum_Depth_of_Binary_Tree import create_Binary_Tree, Solution
+from ....problems.Trees.Maximum_Depth_of_Binary_Tree import create_Binary_Tree, Solution
 import pytest
 
 

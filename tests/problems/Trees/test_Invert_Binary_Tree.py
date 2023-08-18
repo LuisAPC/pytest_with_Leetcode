@@ -1,4 +1,4 @@
-from ...problems.Invert_Binary_Tree import create_Binary_Tree, Solution
+from ....problems.Trees.Invert_Binary_Tree import create_Binary_Tree, Solution
 import pytest
 
 test = Solution()

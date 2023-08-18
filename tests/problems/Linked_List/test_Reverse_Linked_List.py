@@ -1,4 +1,4 @@
-from ...problems.Reverse_Linked_List import Solution, create_linked_list
+from ....problems.Linked_List.Reverse_Linked_List import Solution, create_linked_list
 from hypothesis import given
 from hypothesis.strategies import lists, integers
 import pytest

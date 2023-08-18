@@ -2,7 +2,7 @@
 # sys.path.append(r"C:\Users\luisp\Desktop\Leetcode\problems")
 # from Linked_List_Cycle import create_linked_list, Solution, ListNode
 
-from ...problems.Linked_List_Cycle import create_linked_list, Solution
+from ....problems.Linked_List.Linked_List_Cycle import create_linked_list, Solution
 from hypothesis.strategies import lists, integers, composite
 from hypothesis import given
 from typing import Optional

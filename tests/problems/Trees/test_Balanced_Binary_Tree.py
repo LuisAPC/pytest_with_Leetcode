@@ -1,4 +1,4 @@
-from ...problems.Balanced_Binary_Tree import create_Binary_Tree, Solution
+from ....problems.Trees.Balanced_Binary_Tree import create_Binary_Tree, Solution
 import pytest
 
 

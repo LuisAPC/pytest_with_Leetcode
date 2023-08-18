@@ -3,7 +3,7 @@
 # sys.path.append(r"C:\Users\luisp\Desktop\Leetcode\problems")
 # from Reorder_List import create_linked_list, Solution
 
-from ...problems.Reorder_List import create_linked_list, Solution
+from ....problems.Linked_List.Reorder_List import create_linked_list, Solution
 from hypothesis.strategies import lists, integers
 from hypothesis import given
 from typing import Optional

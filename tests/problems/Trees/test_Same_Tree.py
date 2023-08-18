@@ -1,4 +1,4 @@
-from ...problems.Same_Tree import create_Binary_Tree, Solution
+from ....problems.Trees.Same_Tree import create_Binary_Tree, Solution
 from hypothesis.strategies import lists, integers, composite
 from hypothesis import given
 import pytest
