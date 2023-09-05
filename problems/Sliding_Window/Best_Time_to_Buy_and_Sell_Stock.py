@@ -1,5 +1,5 @@
 class Solution:
-    def maxProfit(self, prices: list[int]) -> int:
+    def maxProfit(self, prices: list) -> int:
         buy = prices[0]
         max_profit = 0
         for sell in prices:
